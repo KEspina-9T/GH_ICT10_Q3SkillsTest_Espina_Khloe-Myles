@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Sign in</title>
+</head>
+
+<body>
+    <h1>Account Sign-in</h1>
+    <form>
+        <input type="text" id="uname" placeholder="Enter your Username"><br>
+        <input type="password" id="pword" placeholder="Enter your password"><br>
+
+        <input type="button" py-click="sign_in" value="Log in">
+    </form>
+    <div id="output" style="color: rgb(164, 106, 145); font-size:28;"></div>
+    <py-script src="main.py"></py-script>
+</body>
+
+</html>
